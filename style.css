@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.outer-container{
+  width: 100vw;
+  height: 100vh; 
+  background: linear-gradient(to top left, rgb(75, 217, 252), rgb(211, 230, 239));
+}
+.inner-container{
+     width: 400px;
+     margin: 0 auto;
+     position: relative;
+     top: 40%;
+     transform: translateY(-50%);
+     padding: 20px 40px;
+     background-color: white;
+     border-radius: 8px;
+     box-shadow: 2px 2px 5px ;
+     
+}
+
+.signup-header h1{
+  font-size: 2.5rem;
+  color: rgba(0, 0, 0, 0.834);
+}
+
+.signup-header p {
+padding-top: 4px;
+font-size: 1rem;
+color: rgba(0, 0, 0, 0.717);
+}
+
+.signup-body{
+  margin: 10px 0;
+}
+
+.signup-body p{
+  margin: 10px 0;
+}
+
+.signup-body label{
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+}
+
+.signup-body input{
+  padding: 8px 0;
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.46);
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 4px;
+}
+
+.signup-body input[type=submit]{
+background-color: rgba(0, 255, 255, 0.275);
+cursor: pointer;
+border: none;
+
+}
+.signup-body input[type=submit]:hover{
+  background-color: aqua;
+
+}
+ 
+.signup-footer p{
+color: rgba(0, 0, 0, 0.622);
+text-align: center;
+}
+
+.signup-footer a{
+  color: rgb(0, 98, 255);
+}
+
+.circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+ background: linear-gradient(to top right, rgb(173, 203, 237),blue);
+  position: absolute;
+  
+}
+.c1{
+  top: 100px;
+  left: 40px;
+}
+.c2{
+  bottom: 200px;
+  right: 50px;
+}
+
